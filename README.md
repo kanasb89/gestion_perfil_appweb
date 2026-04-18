@@ -46,11 +46,11 @@ Este es un proyecto Full Stack desarrollado como una aplicación web para la ges
     * Iniciar aplicación: `ng serve`.
     * Abrir en el navegador: `http://localhost:4200`.
 
-## 🔑 Cuentas de Prueba
+## Cuentas de Prueba
 El sistema cuenta con los siguientes usuarios pre-configurados en la base de datos:
-* **Admin:** admin / Admin123
-* **Usuario:** bernardo / kanas2025
-* **Usuario:** Fernando / guate2025
+* **Admin:** admin o Admin@correo.com / Admin123
+* **Usuario:** bernardo o bernardo@correo.com / kanas2025
+* **Usuario:** Fernando o Fernando@correo.com / guate2025
 
 ---
 Desarrollado como proyecto de Ingeniería en Sistemas.
