@@ -1,0 +1,54 @@
+# Sistema de Gestión de Usuarios y Perfiles
+
+Este es un proyecto Full Stack desarrollado como una aplicación web para la gestión de autenticación y perfiles de usuario, utilizando una arquitectura desacoplada con un Backend en Node.js y un Frontend en Angular.
+
+## Tecnologías y Herramientas Usadas
+
+### Backend
+* **Node.js**: Entorno de ejecución para el servidor.
+* **Express**: Framework para la creación de la API REST.
+* **PostgreSQL (Supabase)**: Base de datos relacional gestionada en la nube.
+* **Bcryptjs**: Librería para el hashing y seguridad de contraseñas.
+* **JSON Web Token (JWT)**: Estándar para la autenticación segura entre cliente y servidor.
+* **Dotenv**: Gestión de variables de entorno.
+* **CORS**: Configuración de seguridad para peticiones entre dominios.
+
+### Frontend
+* **Angular (v17/18)**: Framework para el desarrollo de la interfaz de usuario.
+* **TypeScript**: Lenguaje de programación principal para la lógica del cliente.
+* **Bootstrap / CSS3**: Diseño responsivo y estilos personalizados.
+* **Zone.js**: Gestión de detección de cambios en Angular.
+
+## Requisitos Previos
+
+* Node.js instalado.
+* Angular CLI instalado (`npm install -g @angular/cli`).
+* Cuenta en Supabase con una base de datos PostgreSQL activa.
+
+## Instalación y Configuración
+
+1.  **Clonar el proyecto:**
+    ```bash
+    git clone url-del-respositorio
+    ```
+
+2.  **Configurar el Backend:**
+    * Navegar a la carpeta `backend/`.
+    * Instalar dependencias: `npm install`.
+    * Crear un archivo `.env` en la raíz de `backend/` con tus credenciales de Supabase.
+    * Iniciar servidor: `npm start` o `npm run dev`.
+
+3.  **Configurar el Frontend:**
+    * Navegar a la carpeta `frontend/`.
+    * Instalar dependencias: `npm install`.
+    * Iniciar aplicación: `ng serve`.
+    * Abrir en el navegador: `http://localhost:4200`.
+
+## 🔑 Cuentas de Prueba
+El sistema cuenta con los siguientes usuarios pre-configurados en la base de datos:
+* **Admin:** admin / Admin123
+* **Usuario:** bernardo / kanas2025
+* **Usuario:** Fernando / guate2025
+
+---
+Desarrollado como proyecto de Ingeniería en Sistemas.
