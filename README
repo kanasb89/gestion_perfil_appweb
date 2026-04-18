@@ -2,8 +2,10 @@
 
 Este es un proyecto Full Stack desarrollado como una aplicación web para la gestión de autenticación y perfiles de usuario, utilizando una arquitectura desacoplada con un Backend en Node.js y un Frontend en Angular.
 
-## Tecnologías y Herramientas Usadas
+# Autor: Bernardo Canas
+# Curso: Desarrollo de Aplicaciones WEB
 
+## Tecnologías y Herramientas Usadas
 ### Backend
 * **Node.js**: Entorno de ejecución para el servidor.
 * **Express**: Framework para la creación de la API REST.
